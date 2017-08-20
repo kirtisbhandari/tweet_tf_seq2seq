@@ -1,0 +1,10 @@
+export DATA_PATH="/mnt/data/kirtib/twitter/seq_model/seq2seq/tweet/data_2"
+
+export VOCAB_SOURCE=${DATA_PATH}/vocab.50k.en
+export VOCAB_TARGET=${DATA_PATH}/vocab.50k.en
+export TRAIN_SOURCES=${DATA_PATH}/auto.train.tok.30.en
+export TRAIN_TARGETS=${DATA_PATH}/train.tok.30.en
+export DEV_SOURCES=${DATA_PATH}/auto.test.tok.30.en
+export DEV_TARGETS=${DATA_PATH}/test.tok.30.en
+export DEV_TARGETS_REF=${DATA_PATH}/test.tok.30.en
+export MODEL_DIR="/mnt/data/kirtib/twitter/seq_model/seq2seq/tweet/train_model_2_autonoise_128h_2e_2d_drop_0.5b"

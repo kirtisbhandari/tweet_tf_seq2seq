@@ -1,0 +1,7 @@
+hooks:
+  - class: PrintModelAnalysisHook
+  - class: MetadataCaptureHook
+  - class: SyncReplicasOptimizerHook
+  - class: TrainSampleHook
+    params:
+      every_n_steps: 10000
